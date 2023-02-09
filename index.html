@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Development Methodologies</title>
+    <meta name="description" content="Software Development Methodologies">
+    <meta name="keywords" content="Software Development Methodologies">
+    <meta name="author" content="Vishal Kalansooriya">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preload" as="image" href="1.jpg">
+    <link rel="preload" as="image" href="2.jpg">
+    <link rel="preload" as="image" href="3.jpg">
+    <link rel="preload" as="image" href="4.jpg">
+    <link rel="preload" as="image" href="5.jpg">
+    <link rel="preload" as="image" href="6.jpg">
+    <link rel="preload" as="image" href="7.jpg">
+    <link rel="preload" as="image" href="8.jpg">
+    <link rel="preload" as="image" href="9.jpg">
+    <link rel="preload" as="image" href="10.jpg">
+    <link rel="preload" as="image" href="11.jpg">
+    <link rel="preload" as="image" href="12.jpg">
+</head>
+<body>
+    <main>
+        <img src="bg.png" alt="bg">
+        <h1>SOFTWARE DEVELOPMENT METHODOLOGIES</h1>
+        <button onclick="explore()">Explore</button>
+        <h3 onclick="window.open('https://www.facebook.com/vishal.kalansooriya','_blank')">
+            Copyright &copy;2022 Vishal Kalansooriya
+        </h3>
+    </main>
+    <nav>
+        <h2>Select a methodology</h2>
+        <ol>
+            <li onclick="showMethodology(1)">1) Agile Software Development Methodology</li>
+            <li onclick="showMethodology(2)">2) DevOps Methodology</li>
+            <li onclick="showMethodology(3)">3) Scrum Development Methodology</li>
+            <li onclick="showMethodology(4)">4) Waterfall Model</li>
+            <li onclick="showMethodology(5)">5) Prototype Methodology</li>
+            <li onclick="showMethodology(6)">6) Feature Driven Development</li>
+            <li onclick="showMethodology(7)">7) Rapid Application Development (RAD)</li>
+            <li onclick="showMethodology(8)">8) Spiral Model</li>
+            <li onclick="showMethodology(9)">9) Dynamic Systems Development Model Methodology</li>
+            <li onclick="showMethodology(10)">10) Extreme Programming Methodology</li>
+            <li onclick="showMethodology(11)">11) Joint Application Development Methodology</li>
+            <li onclick="showMethodology(12)">12) Lean Development Methodology</li>
+            <li onclick="exit()">~ Exit to main menu</li>
+            <li onclick="credits()">~ Credits</li>
+        </ol>
+    </nav>
+    <section>
+        <div id="left">
+            <header>
+                <button onclick="showBack()">Back</button>
+                <button onclick="showList()">List</button>
+                <button onclick="showNext()">Next</button>
+            </header>
+            <h2></h2>
+            <div>
+                <button onclick="showTab(structure)">Structure</button>
+                <button onclick="showTab(advantages)">Advantages</button>
+                <button onclick="showTab(disadvantages)">Disadvantages</button>
+                <button onclick="showTab(whenToAdopt)">When to adopt</button>
+            </div>
+            <span id="structure"></span>
+            <span id="advantages"></span>
+            <span id="disadvantages"></span>
+            <span id="whenToAdopt"></span>
+        </div>
+        <div id="right">
+            <img alt="image">
+        </div>
+    </section>
+    <footer>
+        <h2>Thanks to,</h2>
+        <div>
+            <h4>
+                <a href="https://www.tatvasoft.com/blog/top-12-software-development-methodologies-and-its-advantages-disadvantages/" target="_blank">Mr.Kamal Sharma</a> for the detailed explanations of the above methodologies and also for the watermark free images.<br><br>
+                <a href="mailto:ovini.s@sliit.lk">Mrs.Ovinie Senarathna</a> for giving us this opportunity.
+            </h4>
+            <img src="thanks.gif" alt="thanks">
+        </div>
+        <button onclick="closeCredits()">Close</button>
+    </footer>
+</body>
+</html>
